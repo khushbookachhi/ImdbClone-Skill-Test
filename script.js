@@ -81,7 +81,7 @@ const loadMovieDetails = () => {
                               localStorage.setItem("movieID", movie.dataset.id); // Set movie id to localstorage to use it in moviePage.html
 
                               window.location.href =
-                                        "./moviePage/moviePage.html"; //Redirect to a new page
+                                        "./moviepage/moviePage.html"; //Redirect to a new page
                     });
           });
 };
